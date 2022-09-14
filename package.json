@@ -41,8 +41,8 @@
     "test": "./scripts/test.sh",
     "test:unit": "nuxi prepare test/fixtures/basic && nuxi prepare test/fixtures/document-driven && vitest run"
   },
-  "stackblitzrc": {
-    "startCommand": "npx nuxi dev"
+  "stackblitz": {
+    "publisherStartCommand": "npx nuxi dev"
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.9",
